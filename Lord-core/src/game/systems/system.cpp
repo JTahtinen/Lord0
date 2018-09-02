@@ -12,7 +12,6 @@ namespace lord { namespace game {
 
 	namespace system
 	{
-
 		static std::deque<GUID>									_freeIDList;
 		static std::vector<GUID>								_entities;
 		static std::unordered_map<GUID, LocationComponent*>		_locationComponents;
